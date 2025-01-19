@@ -1,0 +1,1142 @@
+{
+    "1": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.051,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.143,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.229,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.317,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.412,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.567,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.678,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.755,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.821,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.997,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.97",
+        "total_tokens": 20111
+    },
+    "2": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.089,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.15,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.276,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.313,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.467,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.543,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.693,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.749,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.826,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.973,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.82",
+        "total_tokens": 20121
+    },
+    "3": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.007,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.175,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.289,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.383,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.457,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.543,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.619,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.75,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.891,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.954,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.73",
+        "total_tokens": 20109
+    },
+    "4": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.077,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.186,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.214,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.395,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.492,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.501,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.614,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.71,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.858,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.966,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.56",
+        "total_tokens": 20114
+    },
+    "5": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.012,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.159,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.268,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.348,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.474,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.517,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.615,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.71,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.824,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.989,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.27",
+        "total_tokens": 20099
+    },
+    "6": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.055,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.155,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.254,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.332,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.448,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.537,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.67,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.758,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.817,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.991,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.11",
+        "total_tokens": 20107
+    },
+    "7": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.06,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.104,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.203,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.319,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.483,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.515,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.68,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.705,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.838,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.964,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.64",
+        "total_tokens": 20111
+    },
+    "8": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.084,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.106,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.293,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.343,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.464,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.514,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.625,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.776,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.81,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.968,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.80",
+        "total_tokens": 20117
+    },
+    "9": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.037,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.101,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.223,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.38,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.417,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.518,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.654,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.786,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.857,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.977,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "15.72",
+        "total_tokens": 20126
+    },
+    "10": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.0,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.152,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.268,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.314,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.439,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.595,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.623,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.727,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.867,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.944,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.45",
+        "total_tokens": 20107
+    },
+    "11": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.098,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.106,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.219,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.318,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.402,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.532,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.622,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.789,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.854,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.922,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "12.07",
+        "total_tokens": 20111
+    },
+    "12": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.046,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.106,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.24,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.302,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.408,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.552,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.68,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.778,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.824,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.957,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "15.28",
+        "total_tokens": 20109
+    },
+    "13": {
+        "overall_accuracy": "Overall Accuracy: 90.00% (9/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.091,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.126,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.298,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.336,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.463,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.543,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.697,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.726,
+                "correct": false
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.86,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.931,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.90",
+        "total_tokens": 20119
+    },
+    "14": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.046,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.197,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.211,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.329,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.446,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.523,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.669,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.759,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.862,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.991,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.30",
+        "total_tokens": 20113
+    },
+    "15": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.05,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.15,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.254,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.389,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.486,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.505,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.634,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.725,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.838,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.956,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.85",
+        "total_tokens": 20106
+    },
+    "16": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.004,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.145,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.235,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.341,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.453,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.521,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.676,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.768,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.88,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.918,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.18",
+        "total_tokens": 20101
+    },
+    "17": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.04,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.137,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.298,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.385,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.428,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.526,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.673,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.768,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.856,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.943,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.22",
+        "total_tokens": 20113
+    },
+    "18": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.068,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.114,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.279,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.308,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.476,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.501,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.611,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.795,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.861,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.985,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.27",
+        "total_tokens": 20119
+    },
+    "19": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.019,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.188,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.281,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.349,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.486,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.502,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.623,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.797,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.864,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.925,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "14.75",
+        "total_tokens": 20107
+    },
+    "20": {
+        "overall_accuracy": "Overall Accuracy: 100.00% (10/10)",
+        "accuracy_data": [
+            {
+                "bin_num": 0,
+                "relative_position": 0.09,
+                "correct": true
+            },
+            {
+                "bin_num": 1,
+                "relative_position": 0.175,
+                "correct": true
+            },
+            {
+                "bin_num": 2,
+                "relative_position": 0.213,
+                "correct": true
+            },
+            {
+                "bin_num": 3,
+                "relative_position": 0.381,
+                "correct": true
+            },
+            {
+                "bin_num": 4,
+                "relative_position": 0.436,
+                "correct": true
+            },
+            {
+                "bin_num": 5,
+                "relative_position": 0.512,
+                "correct": true
+            },
+            {
+                "bin_num": 6,
+                "relative_position": 0.668,
+                "correct": true
+            },
+            {
+                "bin_num": 7,
+                "relative_position": 0.715,
+                "correct": true
+            },
+            {
+                "bin_num": 8,
+                "relative_position": 0.844,
+                "correct": true
+            },
+            {
+                "bin_num": 9,
+                "relative_position": 0.965,
+                "correct": true
+            }
+        ],
+        "duration_seconds": "13.53",
+        "total_tokens": 20105
+    }
+}
