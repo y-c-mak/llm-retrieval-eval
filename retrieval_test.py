@@ -134,19 +134,38 @@ def retrieve_openai(
 
     selected_records = get_selected_records(phone_book, n_entries, n_lookups)
 
-    conversation = [{"role": "system", "content": system_instructions}]
+    system_message_role = ""
+    if model.startswith("gpt"):
+        # For good old gpt4o and earlier models
+        system_message_role = "system"
+    elif model.startswith("o1-mini"):
+        # Specifically for o1-mini since there doesn't seem to be any support for system or developer role
+        system_message_role = "user"
+    else:
+        # For o1 and newer models
+        system_message_role = "developer"
+    conversation = [{"role": system_message_role, "content": system_instructions}]
     user_message = "Please find phone numbers for these names: " + ", ".join(
         [record["record"] for record in selected_records]
     )
     conversation.append({"role": "user", "content": user_message})
 
-    response = openai_client.chat.completions.create(
-        model=model,
-        messages=conversation,
-        temperature=0,
-        top_p=0.95,
-        # max_tokens=8192,
-    )
+    response = None
+    if model.startswith("o1-mini"):
+        response = openai_client.chat.completions.create(
+            model=model,
+            messages=conversation,
+            temperature=1,
+            # max_tokens=8192,
+        )
+    else:
+        response = openai_client.chat.completions.create(
+            model=model,
+            messages=conversation,
+            temperature=0,
+            top_p=0.95,
+            # max_tokens=8192,
+        )
 
     response_text = response.choices[0].message.content
 
@@ -442,7 +461,7 @@ def run_experiment(model: str, n_entries: int, n_lookups: int, n_runs: int = 10)
                 duration,
                 total_tokens,
             ) = retrieve_gemini(model, n_entries, n_lookups)
-        elif model.startswith("gpt"):
+        elif model.startswith("gpt") or model.startswith("o1"):
             (
                 overall_accuracy_str,
                 accuracy_data,
@@ -453,7 +472,7 @@ def run_experiment(model: str, n_entries: int, n_lookups: int, n_runs: int = 10)
         elif (
             model.startswith("meta-llama")
             or model.startswith("Qwen")
-            or model.startswith("deepseek")
+            or model.startswith("deepseek-ai")
         ):
             (
                 overall_accuracy_str,
@@ -586,6 +605,7 @@ if __name__ == "__main__":
     # "gpt-4-turbo-2024-04-09"
     # "gpt-4o-2024-08-06"
     # "gpt-4o-mini-2024-07-18"
+    # "o1-mini-2024-09-12"
     # "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
     # "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"
     # "meta-llama/Llama-3.2-3B-Instruct-Turbo"
@@ -598,6 +618,7 @@ if __name__ == "__main__":
     # "nousresearch/hermes-3-llama-3.1-405b"
     # "Qwen/Qwen2.5-72B-Instruct-Turbo"
     # "deepseek-ai/DeepSeek-V3"
+    # "deepseek/deepseek-r1"
 
     # Anthropic
     # "claude-3-5-haiku-20241022"
@@ -646,10 +667,10 @@ if __name__ == "__main__":
         )
         s_time = time.time()
         run_experiment(
-            model="gemini-2.0-flash-exp",
+            model="o1-mini-2024-09-12",
             n_entries=n_entries,
             n_lookups=n_lookups,
-            n_runs=5,
+            n_runs=20,
         )
         print(f"...completed in {time.time() - s_time:.2f}s.")
         time.sleep(5)
