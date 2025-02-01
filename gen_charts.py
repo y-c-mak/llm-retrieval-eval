@@ -324,13 +324,15 @@ if __name__ == "__main__":
     #     "claude-3-opus-20240229",
     # ]
     models = [
-        # "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-        # "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-        # "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+        "meta-llama-Meta-Llama-3.1-8B-Instruct-Turbo",
+        "meta-llama-Meta-Llama-3.1-70B-Instruct-Turbo",
+        "nousresearch-hermes-3-llama-3-1-405b",
+        "meta-llama-Llama-3-2-90B-Vision-Instruct-Turbo",
+        "meta-llama-Llama-3-3-70B-Instruct-Turbo",
         # "gemini-1.5-flash-8b",
-        "gemini-1.5-flash-002",
+        # "gemini-1.5-flash-002",
         # "gemini-1.5-pro-002",
-        "gemini-2.0-flash-exp",
+        # "gemini-2.0-flash-exp",
         # "gpt-4o-2024-08-06",
         # "gpt-4-turbo-2024-04-09",
         # "gpt-4o-mini-2024-07-18",
@@ -340,13 +342,14 @@ if __name__ == "__main__":
         # "claude-3-5-sonnet-20241022",
         # "ai21-jamba-1-5-large",
         # "ai21-jamba-1-5-mini",
+        # "o1-2024-12-17",
     ]
-    draw_chart(models, 5000, 100, file_prefix="gemini_flash_")
+    draw_chart(models, 5000, 100, file_prefix="llama_5000_100_")
 
     # draw_chart_single_model(
-    #     model="claude-3-5-haiku-20241022",
-    #     # haystack_size=5000,
-    #     needles=100,
-    #     title="Performance for Claude 3 Haiku for different haystack sizes (100 needles)",
-    #     filename="claude-3-haiku-100-needles.png",
+    #     model="o1-mini-2024-09-12",
+    #     haystack_size=1000,
+    #     # needles=100,
+    #     title="Performance for o1-mini-2024-09-12 for M=1K",
+    #     filename="o1-mini-1k-haystack.png",
     # )

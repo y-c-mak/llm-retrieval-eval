@@ -151,7 +151,7 @@ def retrieve_openai(
     conversation.append({"role": "user", "content": user_message})
 
     response = None
-    if model.startswith("o1-mini"):
+    if model.startswith("o1"):
         response = openai_client.chat.completions.create(
             model=model,
             messages=conversation,
@@ -606,6 +606,7 @@ if __name__ == "__main__":
     # "gpt-4o-2024-08-06"
     # "gpt-4o-mini-2024-07-18"
     # "o1-mini-2024-09-12"
+    # "o1-2024-12-17"
     # "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
     # "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"
     # "meta-llama/Llama-3.2-3B-Instruct-Turbo"
@@ -618,6 +619,7 @@ if __name__ == "__main__":
     # "nousresearch/hermes-3-llama-3.1-405b"
     # "Qwen/Qwen2.5-72B-Instruct-Turbo"
     # "deepseek-ai/DeepSeek-V3"
+    # "deepseek-ai/DeepSeek-R1"
     # "deepseek/deepseek-r1"
 
     # Anthropic
@@ -667,7 +669,7 @@ if __name__ == "__main__":
         )
         s_time = time.time()
         run_experiment(
-            model="o1-mini-2024-09-12",
+            model="meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
             n_entries=n_entries,
             n_lookups=n_lookups,
             n_runs=20,

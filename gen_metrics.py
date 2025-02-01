@@ -164,6 +164,8 @@ if __name__ == "__main__":
         "gpt-4-turbo-2024-04-09",
         "gpt-4o-2024-08-06",
         "gpt-4o-mini-2024-07-18",
+        "o1-2024-12-17",
+        "o1-mini-2024-09-12",
         # Llama models
         "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
         "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
@@ -201,5 +203,6 @@ if __name__ == "__main__":
         print(f"Model {args.model} is not supported.")
         exit(1)
 
-    model_name = args.model.replace("/", "-").replace(":", "-").replace(".", "-")
+    model_name = args.model.replace("/", "-").replace(":", "-")
+    # .replace(".", "-")
     calc_metrics(model_name=model_name, max_haystack_size=args.haystack)
